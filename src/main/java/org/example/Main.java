@@ -8,8 +8,8 @@ public class Main {
 
     private void run1() {
         int nBox = 3;
-        int apples = 3;
-        System.out.printf("In box #3 are 34 apples",nBox,apples);
+        int apples = 12345678;
+        System.out.printf("In box # %d are %d apples",nBox,apples);
     }
 
     private void run() {
