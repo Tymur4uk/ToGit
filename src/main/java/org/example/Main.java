@@ -2,8 +2,14 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        new Main().run1();
+        new Main().run2();
 
+    }
+
+    private void run2() {
+        String name = "bananas";
+        double cost = 875231845;
+        System.out.printf("%s cost %1f grivnas",name,cost);
     }
 
     private void run1() {
